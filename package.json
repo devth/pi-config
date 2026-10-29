@@ -1,0 +1,12 @@
+{
+  "name": "devth-pi-config",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check scripts/install.mjs && node --check tests/install.test.mjs",
+    "setup": "node scripts/install.mjs",
+    "plan": "node scripts/install.mjs --dry-run"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "defaultThinkingLevel": "high",
+  "hideThinkingBlock": false,
+  "defaultTools": ["+codemode"],
+  "codemode": { "mode": "on" },
+  "extensions": ["-builtin:mcp"]
+}

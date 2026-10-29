@@ -1,0 +1,42 @@
+{
+  "packages": [
+    "npm:@juanibiapina/pi-extension-settings",
+    "npm:pi-subagents",
+    "git:github.com/edlsh/pi-ask-user@adcc7b2ee22bb290f9d6693efe6c0d0cd1273280",
+    "npm:pi-mcp-adapter",
+    "npm:pi-web-access",
+    "git:github.com/VandeeFeng/pi-memory-md",
+    "npm:@devkade/pi-plan",
+    "npm:pi-simplify",
+    "npm:pi-add-dir",
+    "npm:pi-prompt-template-model",
+    "npm:@plannotator/pi-extension",
+    "npm:pi-slopchop",
+    "npm:@juanibiapina/pi-powerbar",
+    "npm:@tmustier/pi-usage-extension",
+    "npm:@tmustier/pi-raw-paste",
+    "git:github.com/tintinweb/pi-manage-todo-list@b75c449aa85ce328e9a8b632f62bf642aed40359",
+    "npm:pi-btw",
+    "npm:pi-interactive-shell",
+    "git:github.com/davebcn87/pi-autoresearch",
+    "npm:@tmustier/pi-ralph-wiggum",
+    "git:github.com/javierportillo/pi-hackerman@63b0a3ef2c7b14985ffeb6cac44614ba59cd5693",
+    "npm:@victor-software-house/pi-curated-themes",
+    "npm:pi-terminal-theme",
+    "git:github.com/EveryInc/compound-engineering-plugin",
+    {
+      "source": "git:github.com/mastnacek/pi-system-one@8c9da086d5184031e0907d63ff47644b51e54ba3",
+      "extensions": []
+    },
+    {
+      "source": "git:github.com/Rahularya01/pi-antigravity@f950c08e7a5c1069a0339af88252347a5ecb0f8c",
+      "extensions": ["src/index.ts"]
+    },
+    "npm:pi-mobile@0.4.0"
+  ],
+  "localOverrides": {
+    "git:github.com/edlsh/pi-ask-user@adcc7b2ee22bb290f9d6693efe6c0d0cd1273280": "~/pi-ask-user"
+  },
+  "optionalLocalPackages": ["~/dotfiles/pi/clef-router"],
+  "impeccable": { "version": "4.8.0" }
+}

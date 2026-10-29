@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+settings.json
+settings-extensions.json
+auth.json
+models.json
+mcp.json
+mcp-adapter.json
+mcp-cache.json
+sessions/
+cache/
+*.backup-*
+*.bak
+*.log
+*.tmp-*
